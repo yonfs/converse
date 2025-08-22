@@ -34,4 +34,12 @@ export type EmailLoginRequest = {
     password: string
 }
 
+// 忘记密码
+export type ForgetPasswordRequest = {
+    account: string
+    verificationCode: string
+    newPassword: string
+    confirmPassword: string
+}
+
 

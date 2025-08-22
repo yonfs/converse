@@ -1,5 +1,6 @@
 export default {
     auth: {
+        mustHaveAccount: 'user.auth.mustHaveAccount',
         mustHavePhone: 'user.auth.mustHavePhone',
         phoneMustBeValid: 'user.auth.phoneMustBeValid',
         mustHaveEmail: 'user.auth.mustHaveEmail',
@@ -13,6 +14,10 @@ export default {
         emailAlreadyRegistered: 'user.auth.emailAlreadyRegistered',
         phoneNotRegistered: 'user.auth.phoneNotRegistered',
         passwordIncorrect: 'user.auth.passwordIncorrect',
-        emailNotRegistered: 'user.auth.emailNotRegistered'
+        emailNotRegistered: 'user.auth.emailNotRegistered',
+        mustHaveNewPassword: 'user.auth.mustHaveNewPassword',
+        mustHaveConfirmPassword: 'user.auth.mustHaveConfirmPassword',
+        newPasswordAndConfirmPasswordNotMatch: 'user.auth.newPasswordAndConfirmPasswordNotMatch',
+        accountNotRegistered: 'user.auth.accountNotRegistered'
     }
 }

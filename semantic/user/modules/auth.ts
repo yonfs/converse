@@ -18,6 +18,7 @@ export default {
         mustHaveNewPassword: 'user.auth.mustHaveNewPassword',
         mustHaveConfirmPassword: 'user.auth.mustHaveConfirmPassword',
         newPasswordAndConfirmPasswordNotMatch: 'user.auth.newPasswordAndConfirmPasswordNotMatch',
-        accountNotRegistered: 'user.auth.accountNotRegistered'
+        accountNotRegistered: 'user.auth.accountNotRegistered',
+        emailCannotContainSpace: 'user.auth.emailCannotContainSpace'
     }
 }

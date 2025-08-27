@@ -4,6 +4,8 @@ export default {
         deviceIdIsRequired: 'user.userAsset.deviceIdIsRequired',
         userNotFound: 'user.userAsset.userNotFound',
         deviceAlreadyBoundBySelf: 'user.userAsset.deviceAlreadyBoundBySelf',
-        deviceAlreadyBoundByOther: 'user.userAsset.deviceAlreadyBoundByOther'
+        deviceAlreadyBoundByOther: 'user.userAsset.deviceAlreadyBoundByOther',
+        deviceIsNotExist: 'user.userAsset.deviceIsNotExist',
+        userAssetNotExist: 'user.userAsset.userAssetNotExist'
     }
 }

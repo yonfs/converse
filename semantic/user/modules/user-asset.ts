@@ -1,11 +1,9 @@
 export default {
     userAsset: {
-        userIdIsRequired: 'user.userAsset.userIdIsRequired',
-        deviceIdIsRequired: 'user.userAsset.deviceIdIsRequired',
-        userNotFound: 'user.userAsset.userNotFound',
-        deviceAlreadyBoundBySelf: 'user.userAsset.deviceAlreadyBoundBySelf',
-        deviceAlreadyBoundByOther: 'user.userAsset.deviceAlreadyBoundByOther',
-        deviceIsNotExist: 'user.userAsset.deviceIsNotExist',
-        userAssetNotExist: 'user.userAsset.userAssetNotExist'
+        connectIdIsRequired: 'user.userAsset.connectIdIsRequired',
+        userAssetNotExist: 'user.userAsset.userAssetNotExist',
+        bicycleAlreadyBind: 'user.userAsset.bicycleAlreadyBind',
+        bicycleIdIsRequired: 'user.userAsset.bicycleIdIsRequired',
+        userAssetIdIsRequired: 'user.userAsset.userAssetIdIsRequired'
     }
 }

@@ -1,4 +1,6 @@
 export type userAsset = {
-    //设备id
-    deviceId: string
+    //id
+    id: string
+    //单车id
+    bicycleId: string
 }

@@ -1,10 +1,13 @@
 export type userAsset = {
-    //id
+    //资产id
     id: string
 
     //蓝牙物理id
     bluetoothPhysicalId: string
 
-    //单车id
-    bicycleId: string
+    //认证id
+    authId: string | null
+
+    //蓝牙地址
+    bluetoothAddress: string | null
 }

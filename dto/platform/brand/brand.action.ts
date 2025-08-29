@@ -1,4 +1,4 @@
-import { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from "../../simple-request"
+import { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../simple-request'
 
 // 创建品牌入参
 export type CreateBrandRequest = {
@@ -8,7 +8,6 @@ export type CreateBrandRequest = {
 
 // 查询品牌入参
 export type QueryBrandRequest = OnlyKeywordRequest & QueryTimeRequest & PageRequest
-
 
 // 更新品牌入参
 export type UpdateBrandRequest = {

@@ -10,4 +10,6 @@ export type userAsset = {
 
     //蓝牙地址
     bluetoothAddress: string | null
+
+
 }

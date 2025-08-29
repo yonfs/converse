@@ -10,9 +10,4 @@ export type ResponseData<T> = {
     data: T | null
 }
 
-export type PageResponse<T> = ResponseBase & {
-    data: T[]
-    total: number
-}
-
 export type ServiceQueryResult<T> = { total: number; data: T[] }

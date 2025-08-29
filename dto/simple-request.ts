@@ -10,9 +10,13 @@ export type OnlyKeywordRequest = {
     keyword: string | null
 }
 
+// 查询时间范围（数据结构为时间戳）
 export type QueryTimeRequest = {
     queryTimeType: string | null
-    queryTimeRange: string[] | null
+    queryTimeRange: number[] | null
 }
 
-
+export type PageRequest = {
+    skip: number
+    take: number
+}

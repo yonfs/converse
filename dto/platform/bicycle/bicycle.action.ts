@@ -1,6 +1,5 @@
 export type BatchCreateBicycleRequest = {
     id: string
-
 }
 
 //查询单车

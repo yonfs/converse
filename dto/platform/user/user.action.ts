@@ -1,5 +1,2 @@
 // 查询用户入参
-export type QueryUserRequest = {
-
-}
-
+export type QueryUserRequest = {}

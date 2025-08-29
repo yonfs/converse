@@ -14,5 +14,3 @@ export type QueryTimeRequest = {
     queryTimeType: string | null
     queryTimeRange: string[] | null
 }
-
-

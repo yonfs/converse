@@ -1,0 +1,42 @@
+import { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from "src/converse/dto/simple-request"
+import { AccountDto } from "./account.dto"
+
+export type CreateAccountRequest = {
+    /// 账号
+    account: string
+    /// 密码
+    password: string
+    /// 是否允许登录
+    allowLogin: boolean
+    /// 姓名
+    name: string | null
+    /// 手机号
+    phone: string | null
+    /// 邮箱
+    email: string | null
+    /// 角色
+    roleIds: string[]
+}
+
+export type UpdateAccountRequest = {
+    id: string
+    /// 密码
+    password: string
+    /// 是否允许登录
+    allowLogin: boolean
+    /// 姓名
+    name: string | null
+    /// 手机号
+    phone: string | null
+    /// 邮箱
+    email: string | null
+    /// 角色
+    roleIds: string[] | null
+}
+
+export type SearchAccountRequest = OnlyKeywordRequest & QueryTimeRequest & PageRequest
+
+export type SearchAccountResponse = {
+    list: AccountDto[]
+    total: number
+}

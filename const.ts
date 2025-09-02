@@ -4,5 +4,5 @@ export const QueryTimeType = {
     CreatedTime: 'createdTime',
 
     // 更新时间
-    UpdatedTime: 'updatedTime',
+    UpdatedTime: 'updatedTime'
 }

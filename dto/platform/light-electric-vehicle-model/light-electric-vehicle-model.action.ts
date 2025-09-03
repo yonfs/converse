@@ -1,8 +1,8 @@
 import { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../simple-request'
-import { ModelDto } from './model.dto'
+import { LightElectricVehicleModelDto } from './light-electric-vehicle-model.dto'
 
 // 创建型号入参
-export type CreateModelRequest = {
+export type CreateLightElectricVehicleModelRequest = {
     /// 名称
     name: string
     /// 品牌ID
@@ -10,22 +10,22 @@ export type CreateModelRequest = {
 }
 
 // 查询型号入参
-export type QueryModelRequest = OnlyKeywordRequest &
+export type QueryLightElectricVehicleModelRequest = OnlyKeywordRequest &
     QueryTimeRequest &
     PageRequest & {
         brandId: string | null
     }
 
 // 查询型号出参响应
-export type QueryModelResponse = {
+export type QueryLightElectricVehicleModelResponse = {
     /// 列表
-    list: ModelDto[]
+    list: LightElectricVehicleModelDto[]
     /// 总数
     total: number
 }
 
 // 更新型号入参
-export type UpdateModelRequest = {
+export type UpdateLightElectricVehicleModelRequest = {
     /// 型号ID
     id: string
     /// 名称

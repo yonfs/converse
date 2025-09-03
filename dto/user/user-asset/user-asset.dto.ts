@@ -3,7 +3,7 @@ export type userAsset = {
     id: string
 
     //蓝牙物理id
-    bluetoothPhysicalId: string
+    bluetoothPhysicalId: string | null
 
     //认证id
     authId: string | null

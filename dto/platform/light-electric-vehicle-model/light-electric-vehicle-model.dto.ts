@@ -1,4 +1,4 @@
-export type ModelDto = {
+export type LightElectricVehicleModelDto = {
     /// 型号ID
     id: string
     /// 名称

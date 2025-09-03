@@ -1,6 +1,27 @@
-export type userAsset = {
+export type UserAssetDTO = {
     //资产id
     id: string
+
+    // 轻电车Id
+    lightElectricVehicleId: string | null
+
+    //涂鸦设备Id
+    tuyaBicycleId: string | null
+
+    // 轻电车名称
+    lightElectricVehicleName: string | null
+
+    // 轻电车图片
+    lightElectricVehicleImage: string | null
+
+    // 轻电车品牌id
+    lightElectricVehicleBrandId: string | null
+
+    // 轻电车型号id
+    lightElectricVehicleModelId: string | null
+
+    // 车辆编号（车架号）
+    vehicleNumber: string | null
 
     //蓝牙物理id
     bluetoothPhysicalId: string | null
@@ -10,4 +31,7 @@ export type userAsset = {
 
     //蓝牙地址
     bluetoothAddress: string | null
+
+    // 激活时间
+    createdAt: number
 }

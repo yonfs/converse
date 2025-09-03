@@ -1,5 +1,5 @@
 import { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../simple-request'
-import { LightElectricVehicleBrandDto } from './light-electric-vehicle-brand.dto'
+import { LightElectricVehicleBrandDTO } from './light-electric-vehicle-brand.dto'
 
 // 创建品牌入参
 export type CreateLightElectricVehicleBrandRequest = {
@@ -13,7 +13,7 @@ export type QueryLightElectricVehicleBrandRequest = OnlyKeywordRequest & QueryTi
 // 查询品牌出参响应
 export type QueryLightElectricVehicleBrandResponse = {
     /// 品牌列表
-    list: LightElectricVehicleBrandDto[]
+    list: LightElectricVehicleBrandDTO[]
     /// 总数
     total: number
 }

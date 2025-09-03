@@ -1,5 +1,5 @@
 import { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from 'src/converse/dto/simple-request'
-import { AccountDto } from './account.dto'
+import { AccountDTO } from './account.dto'
 
 export type CreateAccountRequest = {
     /// 账号
@@ -37,6 +37,6 @@ export type UpdateAccountRequest = {
 export type SearchAccountRequest = OnlyKeywordRequest & QueryTimeRequest & PageRequest
 
 export type SearchAccountResponse = {
-    list: AccountDto[]
+    list: AccountDTO[]
     total: number
 }

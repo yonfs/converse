@@ -1,4 +1,4 @@
-export type AccountDto = {
+export type AccountDTO = {
     id: string
     // 账号
     account: string

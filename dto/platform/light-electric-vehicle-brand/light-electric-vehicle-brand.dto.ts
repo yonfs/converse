@@ -1,4 +1,4 @@
-export type LightElectricVehicleBrandDto = {
+export type LightElectricVehicleBrandDTO = {
     /// 品牌ID
     id: string
     /// 名称

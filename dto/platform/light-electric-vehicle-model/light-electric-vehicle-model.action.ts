@@ -1,5 +1,5 @@
 import { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../simple-request'
-import { LightElectricVehicleModelDto } from './light-electric-vehicle-model.dto'
+import { LightElectricVehicleModelDTO } from './light-electric-vehicle-model.dto'
 
 // 创建型号入参
 export type CreateLightElectricVehicleModelRequest = {
@@ -19,7 +19,7 @@ export type QueryLightElectricVehicleModelRequest = OnlyKeywordRequest &
 // 查询型号出参响应
 export type QueryLightElectricVehicleModelResponse = {
     /// 列表
-    list: LightElectricVehicleModelDto[]
+    list: LightElectricVehicleModelDTO[]
     /// 总数
     total: number
 }

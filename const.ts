@@ -15,3 +15,12 @@ export const BluetoothAccessoryKind = {
     // 蓝牙仪表
     Instrument: 'instrument'
 }
+
+//用户反馈处理状态枚举
+export const UserFeedbackStatus = {
+    // 未处理
+    Unprocessed: 'unprocessed',
+
+    // 已处理
+    Processed: 'processed'
+}

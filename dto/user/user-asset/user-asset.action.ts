@@ -7,7 +7,7 @@ export type CreateUserAssetRequest = {
     //认证id（认证码）
     authId: string
     //蓝牙地址（mac地址）
-    bluetoothAddress: string
+    bluetoothAddress: string | null
 }
 
 // 查询响应

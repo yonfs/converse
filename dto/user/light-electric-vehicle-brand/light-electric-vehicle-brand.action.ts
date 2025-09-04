@@ -1,3 +1,6 @@
-import { OnlyKeywordRequest, PageRequest } from '../../simple-request'
+import { LightElectricVehicleBrandDTO } from './light-electric-vehicle-brand.dto'
 
-export type QueryLightElectricVehicleBrandRequest = OnlyKeywordRequest & PageRequest
+export type QueryLightElectricVehicleBrandResponse = {
+    total: number
+    list: LightElectricVehicleBrandDTO[]
+}

@@ -1,5 +1,5 @@
 // 查询用户出参
-export type QueryUserDTO = {
+export type UserDTO = {
     // 用户id
     id: string
     // 手机号

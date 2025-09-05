@@ -5,7 +5,7 @@ export type PlatformAccountRoleDTO = {
     // 是否默认角色
     isDefault: boolean
     // 描述
-    description: string
+    description: string | null
     // 权限
     permissions: string[]
 }

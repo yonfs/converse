@@ -4,8 +4,6 @@ import { MerchantVersionDTO } from './merchant-version.dto'
 export type CreateMerchantVersionRequest = {
     /// 商户版本名称
     name: string
-    /// 默认版本
-    isDefault: boolean
     /// 商户版本权限
     permission: string[]
     /// 商户版本备注
@@ -26,8 +24,6 @@ export type UpdateMerchantVersionRequest = {
     id: string
     /// 商户版本名称
     name: string
-    /// 默认版本
-    isDefault: boolean
     /// 商户版本权限
     permission: string[]
     /// 商户版本备注

@@ -1,7 +1,9 @@
 export type MerchantDTO = {
     id: string
     // 上级商户
-    parentMerchantId: string
+    parentMerchantId: string | null
+    // 上级商户名称
+    parentMerchantName: string | null
     // 商户版本id
     merchantVersionId: string
     // 商户编码

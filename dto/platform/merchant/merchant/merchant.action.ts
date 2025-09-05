@@ -13,9 +13,9 @@ export type CreateMerchantRequest = {
     // 商户币种
     currency: string
     // 商户联系人
-    contactPerson: string
+    contactPerson: string | null
     // 商户联系电话
-    contactPhone: string
+    contactPhone: string | null
     // 商户联系地址
     contactAddress: string
     // 商户备注
@@ -36,10 +36,6 @@ export type UpdateMerchantRequest = {
     id: string
     // 是否启用
     isEnabled: boolean
-    // 商户名称
-    name: string
-    // 商户币种
-    currency: string
     // 商户联系人
     contactPerson: string | null
     // 商户联系电话

@@ -24,3 +24,13 @@ export const UserFeedbackStatus = {
     // 已处理
     Processed: 'processed'
 }
+
+// 币种枚举
+export const Currency = {
+    // 人民币
+    CNY: 'CNY',
+    // 美元
+    USD: 'USD',
+    // 欧元
+    EUR: 'EUR'
+}

@@ -34,9 +34,9 @@ export type UpdateAccountRequest = {
     roleIds: string[] | null
 }
 
-export type SearchAccountRequest = OnlyKeywordRequest & QueryTimeRequest & PageRequest
+export type QueryAccountRequest = OnlyKeywordRequest & QueryTimeRequest & PageRequest
 
-export type SearchAccountResponse = {
+export type QueryAccountResponse = {
     list: AccountDTO[]
     total: number
 }

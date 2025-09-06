@@ -13,16 +13,8 @@ export type CreateSystemMessageRequest = {
     title: string
     // 内容
     content: string
-    // 推送模式
-    pushMode: string
-    // 推送时间
-    pushTime: number
-    // 推送群体
-    pushGroup: string
-    // 条件开始时间
-    conditionStartTime: number | null
-    // 条件结束时间
-    conditionEndTime: number | null
+    // 可见时间
+    visibleTime: number
 }
 
 export type UpdateSystemMessageRequest = {
@@ -31,14 +23,6 @@ export type UpdateSystemMessageRequest = {
     title: string
     // 内容
     content: string
-    // 推送模式
-    pushMode: string
-    // 推送时间
-    pushTime: number
-    // 推送群体
-    pushGroup: string
-    // 条件开始时间
-    conditionStartTime: number | null
-    // 条件结束时间
-    conditionEndTime: number | null
+    // 可见时间
+    visibleTime: number
 }

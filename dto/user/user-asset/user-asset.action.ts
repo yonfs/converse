@@ -16,10 +16,10 @@ export type QueryUserAssetRequest = {
     total: number
 }
 
-// 更新车架号
-export type UpdateVehicleNumberRequest = {
+// 更新 轻电车 车架号
+export type UpdateLightElectricVehicleVehicleNumberRequest = {
     id: string
-    // 车架号
+    // 轻电车车架号
     vehicleNumber: string
 }
 

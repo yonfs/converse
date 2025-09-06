@@ -4,5 +4,5 @@ export type LoginRequest = {
     /// 密码
     password: string
     /// 商户编码
-    merchantCode: string
+    merchantCode: string | null
 }

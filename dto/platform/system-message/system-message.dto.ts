@@ -4,8 +4,8 @@ export type SystemMessageDTO = {
     title: string
     // 内容
     content: string
-    // 可见时间
-    visibleTime: number
+    // 推送时间
+    pushTime: number
     // 创建时间
     createdAt: number
     // 创建人

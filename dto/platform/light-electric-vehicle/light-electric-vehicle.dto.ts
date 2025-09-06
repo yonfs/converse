@@ -1,11 +1,11 @@
 export type LightElectricVehicleDTO = {
     id: string
+    // 车架号
+    vehicleNumber: string | null
     // 品牌ID
     brandId: string | null
     // 型号ID
     modelId: string | null
-    // 内容(车架号)
-    content: string
     // 创建时间
     createdAt: number
     // 创建人

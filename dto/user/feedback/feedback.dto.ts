@@ -1,7 +1,7 @@
 export type FeedbackDTO = {
     id: string
     // 车架号
-    vehicleNumber: string | null
+    vehicleIdentificationNumber: string | null
     // 反馈内容
     content: string
     // 图片

@@ -14,14 +14,20 @@ export type UserAssetDTO = {
     // 轻电车图片
     lightElectricVehicleImage: string | null
 
-    // 轻电车品牌id
+    // 轻电车品牌Id
     lightElectricVehicleBrandId: string | null
 
-    // 轻电车型号id
+    // 品牌名称
+    brandName: string | null
+
+    // 轻电车型号Id
     lightElectricVehicleModelId: string | null
 
-    // 车辆编号（车架号）
-    vehicleNumber: string | null
+    // 型号名称
+    modelName: string | null
+
+    // 车架号
+    vehicleIdentificationNumber: string | null
 
     //蓝牙物理id
     bluetoothPhysicalId: string | null

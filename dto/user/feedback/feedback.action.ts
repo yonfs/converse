@@ -3,7 +3,7 @@ import { FeedbackDTO } from './feedback.dto'
 
 export type CreateFeedbackRequest = {
     // 车架号
-    vehicleNumber: string | null
+    vehicleIdentificationNumber: string | null
 
     // 涂鸦单车设备id
     tuyaBicycleId: string | null

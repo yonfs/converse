@@ -17,10 +17,10 @@ export type QueryUserAssetRequest = {
 }
 
 // 更新 轻电车 车架号
-export type UpdateLightElectricVehicleVehicleNumberRequest = {
+export type UpdateLightElectricVehicleVehicleIdentificationNumberRequest = {
     id: string
-    // 轻电车车架号
-    vehicleNumber: string
+    // 车架号
+    vehicleIdentificationNumber: string
 }
 
 // 更新轻电车品牌

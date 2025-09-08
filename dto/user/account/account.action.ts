@@ -1,22 +1,3 @@
-// 查看个人信息
-export type SingleResponse = {
-    id: string
-    ///昵称
-    nickName: string | null
-    ///头像
-    avatar: string | null
-    ///性别
-    gender: string | null
-    ///个性签名
-    signature: string | null
-    ///手机号
-    phone: string | null
-    ///邮箱
-    email: string | null
-    ///创建时间
-    createdAt: number
-}
-
 // 添加手机号
 export type AddPhoneRequest = {
     phone: string
@@ -30,7 +11,7 @@ export type AddEmailRequest = {
 }
 
 // 修改密码
-export type ChangePasswordRequest = {
+export type UpdatePasswordRequest = {
     originalPassword: string
     newPassword: string
     confirmPassword: string
@@ -43,7 +24,7 @@ export type VerifyOriginalPhoneRequest = {
 }
 
 // 更换手机号
-export type ChangePhoneRequest = {
+export type UpdatePhoneRequest = {
     originalPhone: string
     newPhone: string
     verificationCode: string
@@ -56,28 +37,28 @@ export type VerifyOriginalEmailRequest = {
 }
 
 // 更换邮箱
-export type ChangeEmailRequest = {
+export type UpdateEmailRequest = {
     originalEmail: string
     newEmail: string
     verificationCode: string
 }
 
 // 修改昵称
-export type ChangeNickNameRequest = {
+export type UpdateNickNameRequest = {
     nickName: string
 }
 
 // 修改头像
-export type ChangeAvatarRequest = {
+export type UpdateAvatarRequest = {
     avatar: string
 }
 
 // 修改性别
-export type ChangeGenderRequest = {
+export type UpdateGenderRequest = {
     gender: string
 }
 
 // 修改个性签名
-export type ChangeSignatureRequest = {
+export type UpdateSignatureRequest = {
     signature: string
 }

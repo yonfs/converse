@@ -88,12 +88,12 @@ export const PlatformPermissionModule: PermissionModuleType = [
   // 蓝牙仪表型号
   {
     id: 'bluetoothAccessoryModel',
-    items: ['bluetoothBeacon.query']
+    items: ['bluetoothAccessoryModel.query']
   },
   // 云盒
   {
     id: 'tracker',
-    items: ['cloudBox.query']
+    items: ['tracker.query']
   },
   // 账号管理
   {

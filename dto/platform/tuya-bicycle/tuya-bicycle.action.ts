@@ -1,5 +1,5 @@
-import { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../simple-request'
-import { TuyaBicycleDTO } from './tuya-bicycle.dto'
+import type { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../../dto/simple-request'
+import type { TuyaBicycleDTO } from './tuya-bicycle.dto'
 
 export type QueryTuyaBicycleRequest = OnlyKeywordRequest & PageRequest & QueryTimeRequest
 

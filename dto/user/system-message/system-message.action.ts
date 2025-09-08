@@ -1,5 +1,5 @@
-import { OnlyKeywordRequest, PageRequest } from '../../simple-request'
-import { SystemMessageDTO } from './system-message.dto'
+import type { OnlyKeywordRequest, PageRequest } from '../../../dto/simple-request'
+import type { SystemMessageDTO } from './system-message.dto'
 
 export type QuerySystemMessageRequest = OnlyKeywordRequest & PageRequest
 

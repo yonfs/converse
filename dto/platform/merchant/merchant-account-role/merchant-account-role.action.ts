@@ -1,5 +1,5 @@
-import { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from 'src/converse/dto/simple-request'
-import { MerchantAccountRoleDTO } from './merchant-account-role.dto'
+import type { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../../../dto/simple-request'
+import type { MerchantAccountRoleDTO } from './merchant-account-role.dto'
 
 export type CreateMerchantAccountRoleRequest = {
     // 商户ID

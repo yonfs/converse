@@ -1,5 +1,5 @@
-import { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from 'src/converse/dto/simple-request'
-import { PlatformAccountRoleDTO } from './account-role.dto'
+import type { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../../../dto/simple-request'
+import type { PlatformAccountRoleDTO } from './account-role.dto'
 
 export type CreateAccountRoleRequest = {
     name: string

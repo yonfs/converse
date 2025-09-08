@@ -1,5 +1,5 @@
-import { OnlyKeywordRequest, PageRequest } from 'src/converse/dto/simple-request'
-import { MerchantDTO } from './merchant.dto'
+import type { OnlyKeywordRequest, PageRequest } from '../../../../dto/simple-request'
+import type { MerchantDTO } from './merchant.dto'
 
 export type CreateMerchantRequest = {
     // 商户版本id
@@ -23,7 +23,7 @@ export type CreateMerchantRequest = {
 }
 
 // 查询商户
-export type QueryMerchantRequest = OnlyKeywordRequest & PageRequest & PageRequest
+export type QueryMerchantRequest = OnlyKeywordRequest & PageRequest
 
 // 查询商户响应
 export type QueryMerchantResponse = {

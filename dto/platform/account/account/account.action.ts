@@ -1,5 +1,5 @@
-import { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from 'src/converse/dto/simple-request'
-import { AccountDTO } from './account.dto'
+import type { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../../../dto/simple-request'
+import type { AccountDTO } from './account.dto'
 
 export type CreateAccountRequest = {
     /// 账号

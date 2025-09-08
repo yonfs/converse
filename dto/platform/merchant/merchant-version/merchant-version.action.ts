@@ -1,5 +1,5 @@
-import { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from 'src/converse/dto/simple-request'
-import { MerchantVersionDTO } from './merchant-version.dto'
+import type { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../../../dto/simple-request'
+import type { MerchantVersionDTO } from './merchant-version.dto'
 
 export type CreateMerchantVersionRequest = {
     /// 商户版本名称

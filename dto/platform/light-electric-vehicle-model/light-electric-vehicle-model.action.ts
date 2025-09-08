@@ -1,5 +1,5 @@
-import { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../simple-request'
-import { LightElectricVehicleModelDTO } from './light-electric-vehicle-model.dto'
+import type { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../../dto/simple-request'
+import type { LightElectricVehicleModelDTO } from './light-electric-vehicle-model.dto'
 
 // 创建型号入参
 export type CreateLightElectricVehicleModelRequest = {

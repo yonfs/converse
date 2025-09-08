@@ -1,5 +1,5 @@
-import { PageRequest } from '../../simple-request'
-import { FeedbackDTO } from './feedback.dto'
+import type { PageRequest } from '../../../dto/simple-request'
+import type { FeedbackDTO } from './feedback.dto'
 
 export type CreateFeedbackRequest = {
     // 车架号

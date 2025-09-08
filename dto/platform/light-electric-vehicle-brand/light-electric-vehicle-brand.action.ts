@@ -1,5 +1,5 @@
-import { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../simple-request'
-import { LightElectricVehicleBrandDTO } from './light-electric-vehicle-brand.dto'
+import type { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../../dto/simple-request'
+import type { LightElectricVehicleBrandDTO } from './light-electric-vehicle-brand.dto'
 
 // 创建品牌入参
 export type CreateLightElectricVehicleBrandRequest = {

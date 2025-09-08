@@ -1,5 +1,5 @@
-import { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../simple-request'
-import { LightElectricVehicleDTO } from './light-electric-vehicle.dto'
+import type { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../../dto/simple-request'
+import type { LightElectricVehicleDTO } from './light-electric-vehicle.dto'
 
 export type CreateLightElectricVehicleBatchRequest = {
     // 品牌ID

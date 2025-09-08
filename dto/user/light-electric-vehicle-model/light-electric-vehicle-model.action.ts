@@ -1,5 +1,5 @@
-import { OnlyKeywordRequest } from '../../simple-request'
-import { LightElectricVehicleModelDTO } from './light-electric-vehicle-model.dto'
+import type { OnlyKeywordRequest } from '../../../dto/simple-request'
+import type { LightElectricVehicleModelDTO } from './light-electric-vehicle-model.dto'
 
 export type QueryLightElectricVehicleModelRequest = OnlyKeywordRequest & {
     brandId: string

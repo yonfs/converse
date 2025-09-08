@@ -1,5 +1,5 @@
-import { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../simple-request'
-import { UserDTO } from './user.dto'
+import type { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../../dto/simple-request'
+import type { UserDTO } from './user.dto'
 
 // 查询用户入参（）
 export type QueryUserRequest = OnlyKeywordRequest & QueryTimeRequest & PageRequest

@@ -1,4 +1,4 @@
-import { UserAssetDTO } from './user-asset.dto'
+import type { UserAssetDTO } from './user-asset.dto'
 
 // 创建用户资产
 export type CreateUserAssetRequest = {

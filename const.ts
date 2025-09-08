@@ -34,3 +34,11 @@ export const Currency = {
     // 欧元
     EUR: 'EUR'
 }
+
+// 性别枚举
+export const Gender = {
+    // 男
+    Male: 'male',
+    // 女
+    Female: 'female'
+}

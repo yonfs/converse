@@ -8,4 +8,8 @@ export type PlatformAccountRoleDTO = {
     description: string | null
     // 权限
     permissions: string[]
+    // 创建时间
+    createdAt: number
+    // 更新时间
+    updatedAt: number | null
 }

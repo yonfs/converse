@@ -1,15 +1,3 @@
-// 添加手机号
-export type AddPhoneRequest = {
-    phone: string
-    verificationCode: string
-}
-
-// 添加邮箱
-export type AddEmailRequest = {
-    email: string
-    verificationCode: string
-}
-
 // 修改密码
 export type UpdatePasswordRequest = {
     originalPassword: string
@@ -23,9 +11,8 @@ export type VerifyOriginalPhoneRequest = {
     verificationCode: string
 }
 
-// 更换手机号
+// 更新手机号
 export type UpdatePhoneRequest = {
-    originalPhone: string
     newPhone: string
     verificationCode: string
 }
@@ -36,9 +23,8 @@ export type VerifyOriginalEmailRequest = {
     verificationCode: string
 }
 
-// 更换邮箱
+// 更新邮箱
 export type UpdateEmailRequest = {
-    originalEmail: string
     newEmail: string
     verificationCode: string
 }

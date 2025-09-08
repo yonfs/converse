@@ -62,8 +62,8 @@ export const PlatformPermissionModule: PermissionModuleType = [
   },
   // 车辆管理
   {
-    id: 'lightElectricVehicle',
-    items: ['lightElectricVehicle.query']
+    id: 'lightEV',
+    items: ['lightEV.query']
   },
   // 车辆品牌
   {

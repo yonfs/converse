@@ -44,8 +44,8 @@ export type UpdateEmailRequest = {
 }
 
 // 修改昵称
-export type UpdateNickNameRequest = {
-    nickName: string
+export type UpdateNicknameRequest = {
+    nickname: string
 }
 
 // 修改头像

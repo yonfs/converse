@@ -10,12 +10,12 @@ export type AccountDTO = {
     phone: string | null
     // 邮箱
     email: string | null
+    // 角色
+    roleNames: string[]
+    // 角色id
+    roleIds: string[]
     // 创建时间
     createdAt: number
-    // 创建人
-    createdBy: string
-    // 更新时间
-    updatedAt: number | null
-    // 更新人
-    updatedBy: string | null
+    // 最后活跃时间(不是更新时间)
+    lastActiveAt: number | null
 }

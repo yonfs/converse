@@ -18,8 +18,6 @@ export type CreateAccountRequest = {
 
 export type UpdateAccountRequest = {
     id: string
-    /// 密码
-    password: string
     /// 是否允许登录
     allowLogin: boolean
     /// 姓名
@@ -29,7 +27,7 @@ export type UpdateAccountRequest = {
     /// 邮箱
     email: string | null
     /// 角色
-    roleIds: string[] | null
+    roleIds: string[]
 }
 
 export type QueryAccountRequest = OnlyKeywordRequest & QueryTimeRequest & PageRequest

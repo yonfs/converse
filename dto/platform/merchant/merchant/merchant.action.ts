@@ -1,4 +1,4 @@
-import type { OnlyKeywordRequest, PageRequest } from '../../../../dto/simple-request'
+import type { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../../../dto/simple-request'
 import type { MerchantDTO } from './merchant.dto'
 
 export type CreateMerchantRequest = {
@@ -17,13 +17,18 @@ export type CreateMerchantRequest = {
     // 商户联系电话
     contactPhone: string | null
     // 商户联系地址
-    contactAddress: string
+    contactAddress: string | null
     // 商户备注
     remark: string | null
 }
 
 // 查询商户
-export type QueryMerchantRequest = OnlyKeywordRequest & PageRequest
+export type QueryMerchantRequest = OnlyKeywordRequest &
+    PageRequest &
+    QueryTimeRequest & {
+        // 是否启用
+        isEnabled: boolean | null
+    }
 
 // 查询商户响应
 export type QueryMerchantResponse = {

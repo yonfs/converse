@@ -36,3 +36,13 @@ export type QueryAccountResponse = {
     list: AccountDTO[]
     total: number
 }
+
+//更新密码
+export type UpdatePasswordRequest = {
+    password: string
+}
+
+//重置密码
+export type ResetPasswordRequest = {
+    platformAccountId: string
+}

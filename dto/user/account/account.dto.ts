@@ -1,7 +1,7 @@
 export type AccountDTO = {
     id: string
     ///昵称
-    nickName: string | null
+    nickname: string | null
     ///头像
     avatar: string | null
     ///性别

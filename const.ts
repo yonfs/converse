@@ -7,7 +7,10 @@ export const QueryTimeType = {
     CreatedTime: 'createdTime',
 
     // 更新时间
-    UpdatedTime: 'updatedTime'
+    UpdatedTime: 'updatedTime',
+
+    // 最后活跃时间
+    LastActiveTime: 'lastActiveTime'
 }
 
 //蓝牙配件类型kind

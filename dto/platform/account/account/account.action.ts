@@ -4,8 +4,6 @@ import type { AccountDTO } from './account.dto'
 export type CreateAccountRequest = {
     /// 账号
     account: string
-    /// 密码
-    password: string
     /// 是否允许登录
     allowLogin: boolean
     /// 姓名
@@ -39,4 +37,14 @@ export type QueryAccountRequest = OnlyKeywordRequest & QueryTimeRequest & PageRe
 export type QueryAccountResponse = {
     list: AccountDTO[]
     total: number
+}
+
+//更新密码
+export type UpdatePasswordRequest = {
+    password: string
+}
+
+//重置密码
+export type ResetPasswordRequest = {
+    platformAccountId: string
 }

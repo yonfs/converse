@@ -2,17 +2,17 @@ import type { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../..
 import type { AccountDTO } from './account.dto'
 
 export type CreateAccountRequest = {
-    /// 账号
+    /** 账号 */
     account: string
-    /// 是否允许登录
+    /** 是否允许登录 */
     allowLogin: boolean
-    /// 姓名
+    /** 姓名 */
     name: string | null
-    /// 手机号
+    /** 手机号 */
     phone: string | null
-    /// 邮箱
+    /** 邮箱 */
     email: string | null
-    /// 角色
+    /** 角色 */
     roleIds: string[]
 }
 

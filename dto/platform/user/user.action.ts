@@ -6,7 +6,7 @@ export type QueryUserRequest = OnlyKeywordRequest &
     QueryTimeRequest &
     PageRequest & {
         //是否允许登录
-        isAllowLogin: boolean
+        isAllowLogin: boolean | null
     }
 
 export type QueryUserResponse = {

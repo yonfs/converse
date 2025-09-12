@@ -95,6 +95,11 @@ export const PlatformPermissionModule: PermissionModuleType = [
         id: 'tracker',
         items: ['tracker.query']
     },
+    // 用户
+    {
+        id: 'user',
+        items: ['user.query']
+    },
     // 账号管理
     {
         id: 'account',

@@ -12,6 +12,8 @@ export type UserDTO = {
     avatar: string | null
     // 性别
     gender: string | null
+    // 是否允许登录
+    isAllowLogin: boolean
     // 个性签名
     signature: string | null
     // 最后登录时间（时间戳）

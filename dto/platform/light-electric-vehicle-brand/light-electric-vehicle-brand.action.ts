@@ -3,8 +3,10 @@ import type { LightElectricVehicleBrandDTO } from './light-electric-vehicle-bran
 
 // 创建品牌入参
 export type CreateLightElectricVehicleBrandRequest = {
-    /// 名称
     name: string
+    // 图片
+    image: string | null
+    remark: string | null
 }
 
 // 查询品牌入参
@@ -20,8 +22,14 @@ export type QueryLightElectricVehicleBrandResponse = {
 
 // 更新品牌入参
 export type UpdateLightElectricVehicleBrandRequest = {
-    /// 品牌ID
     id: string
-    /// 名称
     name: string
+    image: string | null
+    remark: string | null
 }
+
+// 查询所有品牌
+export type QueryAllLightElectricVehicleBrandResponse = Array<{
+    id: string
+    name: string
+}>

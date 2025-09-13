@@ -1,3 +1,4 @@
+import type { OnlyKeywordRequest, PageRequest } from '../../simple-request'
 import type { UserAssetDTO } from './user-asset.dto'
 
 // 创建用户资产
@@ -10,8 +11,11 @@ export type CreateUserAssetRequest = {
     bluetoothAddress: string | null
 }
 
+// 用户查询资产请求
+export type QueryUserAssetRequest = OnlyKeywordRequest & PageRequest
+
 // 查询响应
-export type QueryUserAssetRequest = {
+export type QueryUserAssetResponse = {
     list: UserAssetDTO[]
     total: number
 }

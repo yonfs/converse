@@ -1,4 +1,4 @@
-//系统管理员
+// 系统管理员
 export const SystemAdminId = '00000000-0000-0000-0000-000000000001'
 
 // 查询时间类型
@@ -13,13 +13,13 @@ export const QueryTimeType = {
     LastActiveTime: 'lastActiveTime'
 }
 
-//蓝牙配件类型kind
+// 蓝牙配件类型kind
 export const BluetoothAccessoryKind = {
     // 蓝牙仪表
     Instrument: 'instrument'
 }
 
-//用户反馈处理状态枚举
+// 用户反馈处理状态枚举
 export const UserFeedbackStatus = {
     // 未处理
     Unprocessed: 'unprocessed',
@@ -44,4 +44,12 @@ export const Gender = {
     Male: 'male',
     // 女
     Female: 'female'
+}
+
+// 语言枚举
+export const Language = {
+    // 中文
+    Chinese: 'zh',
+    // 英文
+    English: 'en'
 }

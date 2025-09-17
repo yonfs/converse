@@ -10,8 +10,4 @@ export type SystemMessageDTO = {
     createdAt: number
     // 创建人
     createdBy: string
-    // 更新时间
-    updatedAt: number | null
-    // 更新人
-    updatedBy: string | null
 }

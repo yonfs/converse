@@ -1,9 +1,7 @@
-import type { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../../../dto/simple-request'
+import type { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../../dto/simple-request'
 import type { MerchantAccountRoleDTO } from './merchant-account-role.dto'
 
 export type CreateMerchantAccountRoleRequest = {
-    // 商户ID
-    merchantId: string
     // 角色名称
     name: string
     // 角色描述

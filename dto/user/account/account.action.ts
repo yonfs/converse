@@ -48,3 +48,13 @@ export type UpdateGenderRequest = {
 export type UpdateSignatureRequest = {
     signature: string
 }
+
+//验证手机号状态
+export type CheckPhoneStatusRequest = {
+    phone: string
+}
+
+// 验证邮箱状态
+export type CheckEmailStatusRequest = {
+    email: string
+}

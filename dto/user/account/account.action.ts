@@ -2,7 +2,6 @@
 export type UpdatePasswordRequest = {
     originalPassword: string
     newPassword: string
-    confirmPassword: string
 }
 
 // 验证原手机号(用于修改手机号的第一步)

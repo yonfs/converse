@@ -39,5 +39,4 @@ export type ForgetPasswordRequest = {
     account: string
     verificationCode: string
     newPassword: string
-    confirmPassword: string
 }

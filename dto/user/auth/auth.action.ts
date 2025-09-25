@@ -13,6 +13,8 @@ export type PhoneRegisterRequest = {
     phone: string
     password: string
     verificationCode: string
+    // ip地址
+    ipAddress: string | null
 }
 
 // 邮箱注册
@@ -20,6 +22,8 @@ export type EmailRegisterRequest = {
     email: string
     password: string
     verificationCode: string
+    // ip地址
+    ipAddress: string | null
 }
 
 // 手机号登录

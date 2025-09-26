@@ -9,6 +9,8 @@ export type CreateUserAssetRequest = {
     authId: string
     //蓝牙地址（mac地址）
     bluetoothAddress: string | null
+    //图片
+    image: string | null
 }
 
 // 用户查询资产请求

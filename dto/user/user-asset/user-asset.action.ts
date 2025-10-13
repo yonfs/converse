@@ -13,6 +13,18 @@ export type CreateUserAssetRequest = {
     image: string | null
 }
 
+// 创建用户资产蓝牙仪表
+export type BindUserAssetBluetoothAccessoryRequest = {
+    // 蓝牙物理id
+    bluetoothPhysicalId: string
+    // 蓝牙名称
+    name: string
+    // 是Android
+    isAndroid: boolean
+    // 蓝牙地址
+    bluetoothAddress: string
+}
+
 // 用户查询资产请求
 export type QueryUserAssetRequest = OnlyKeywordRequest & PageRequest
 

@@ -4,8 +4,8 @@ import { BluetoothAccessoryDTO } from './bluetooth-accessory.dto'
 export type QueryBluetoothAccessoryRequest = OnlyKeywordRequest & PageRequest & QueryTimeRequest
 
 export type BatchCreateBluetoothAccessoryRequest = {
-    // 型号ID
-    modelId: string | null
+    // 型号
+    modelId: string
     // 内容(车架号)
     content: string
 }

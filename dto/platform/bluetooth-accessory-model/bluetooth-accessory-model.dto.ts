@@ -1,5 +1,7 @@
 export type BluetoothAccessoryModelDTO = {
     id: string
+    // 型号编码
+    modelNumber: string
     //型号名称
     modelName: string
     //图片URL

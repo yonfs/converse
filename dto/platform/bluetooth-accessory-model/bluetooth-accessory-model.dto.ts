@@ -15,3 +15,9 @@ export type BluetoothAccessoryModelDTO = {
     // 更新人
     updatedBy: string | null
 }
+
+export type SimpleBluetoothAccessoryModelDTO = {
+    id: string
+    // 名称
+    modelName: string
+}

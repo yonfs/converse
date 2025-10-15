@@ -1,5 +1,5 @@
-import { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../simple-request'
-import { BluetoothAccessoryModelDTO } from './bluetooth-accessory-model.dto'
+import type { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../simple-request'
+import type { BluetoothAccessoryModelDTO } from './bluetooth-accessory-model.dto'
 
 export type QueryBluetoothAccessoryModelRequest = OnlyKeywordRequest & PageRequest & QueryTimeRequest
 

@@ -53,3 +53,15 @@ export const Language = {
     // 英文
     English: 'en'
 }
+
+// 获取定位点数据源的类型
+export const LocationDataSourceType = {
+    // 混合
+    Mix: 'mix',
+    // GPS
+    GPS: 'gps',
+    // 网络
+    Network: 'network',
+    // 未知
+    Unknown: 'unknown'
+}

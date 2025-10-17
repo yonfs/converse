@@ -1,10 +1,11 @@
 // 开始骑行请求
 export type RideStartRequest = {
-    startTime: number
-    startPosition: {
-        latitude: number
-        longitude: number
-    }
+    assetId: string
+}
+
+// 开始骑行响应
+export type RideStartResponse = {
+    rideId: string
 }
 
 // 上传骑行数据请求
@@ -23,8 +24,4 @@ export type RideUploadDataRequest = {
 export type RideEndRequest = {
     rideId: string
     endTime: number
-    endPosition: {
-        latitude: number
-        longitude: number
-    }
 }

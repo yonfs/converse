@@ -17,12 +17,10 @@ export type CreateUserAssetRequest = {
 export type BindUserAssetBluetoothAccessoryRequest = {
     // 蓝牙物理id
     bluetoothPhysicalId: string
-    // 蓝牙名称
-    name: string
-    // 是Android
-    isAndroid: boolean
-    // 蓝牙地址
-    bluetoothAddress: string
+    // Android蓝牙地址
+    androidBluetoothAddress: string | null
+    // iosUUID
+    iosUUID: string | null
 }
 
 // 用户查询资产请求

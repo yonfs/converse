@@ -16,6 +16,11 @@ export type QueryLightElectricVehicleModelRequest = OnlyKeywordRequest &
         brandId: string | null
     }
 
+// 查询指定品牌下所有型号
+export type QueryLightElectricVehicleModelByBrandIdRequest = OnlyKeywordRequest & {
+    brandId: string
+}
+
 // 查询型号出参响应
 export type QueryLightElectricVehicleModelResponse = {
     /// 列表

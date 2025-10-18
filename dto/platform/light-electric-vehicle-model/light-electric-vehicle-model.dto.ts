@@ -16,3 +16,10 @@ export type LightElectricVehicleModelDTO = {
     /// 更新人
     updatedBy: string | null
 }
+
+export type SimpleLightElectricVehicleModelDTO = {
+    /// 型号ID
+    id: string
+    /// 名称
+    name: string
+}

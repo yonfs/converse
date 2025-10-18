@@ -56,8 +56,10 @@ export type RideTrackListRequest = {
 export type RideTrackListResponse = {
     total: number;
     list: {
+        id: string;
         distance: number;
+        averageSpeed: number;
         startTimestamp: number;
-        endTimestamp: number;
+        endTimestamp: number | null;
     }[]
 }

@@ -9,14 +9,14 @@ export type RideStartResponse = {
 }
 
 type RidePoint = {
-    latitude: number;
-    longitude: number;
-    timestamp: number;
-    accuracy: number;
-    altitude: number;
-    speed: number;
-    bearing: number;
-    type: string; // LocationDataSourceType类型
+    latitude: number
+    longitude: number
+    timestamp: number
+    accuracy: number
+    altitude: number
+    speed: number
+    bearing: number
+    type: string // LocationDataSourceType类型
 }
 
 // 上传骑行数据请求
@@ -37,27 +37,27 @@ export type RideTrackDetailRequest = {
 
 // 骑行轨迹详情响应
 export type RideTrackDetailResponse = {
-    duration: number;
-    distance: number;
-    averageSpeed: number;
-    maxSpeed: number;
-    minSpeed: number;
+    duration: number
+    distance: number
+    averageSpeed: number
+    maxSpeed: number
+    minSpeed: number
     points: RidePoint[]
 }
 
 // 轨迹记录列表
 export type RideTrackListRequest = {
-    skip: number;
-    take: number;
-    assetId: string;
+    skip: number
+    take: number
+    assetId: string
 }
 
 // 轨迹记录列表响应
 export type RideTrackListResponse = {
-    total: number;
+    total: number
     list: {
-        distance: number;
-        startTimestamp: number;
-        endTimestamp: number;
+        distance: number
+        startTimestamp: number
+        endTimestamp: number
     }[]
 }

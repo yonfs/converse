@@ -52,14 +52,17 @@ export type RideTrackListRequest = {
     assetId: string
 }
 
+// 骑行轨迹（列表项）
+export type RideTrack = {
+    id: string
+    averageSpeed: number
+    distance: number
+    startTimestamp: number
+    endTimestamp: number | null
+}
+
 // 轨迹记录列表响应
 export type RideTrackListResponse = {
     total: number
-    list: {
-        id: string
-        averageSpeed: number
-        distance: number
-        startTimestamp: number
-        endTimestamp: number | null
-    }[]
+    list: RideTrack[]
 }

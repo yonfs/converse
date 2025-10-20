@@ -11,3 +11,5 @@ export type ResponseData<T> = {
 }
 
 export type ServiceQueryResult<T> = { total: number; data: T[] }
+
+export type OnlyIdResponse = ResponseData<{ id: string }>

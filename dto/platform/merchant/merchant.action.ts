@@ -32,19 +32,19 @@ export type QueryMerchantResponse = {
 export type UpdateMerchantRequest = {
     id: string
     /** 名称 */
-    name?: string
+    name: string
     /** 联系人 */
-    contactPerson?: string
+    contactPerson: string | null
     /** 联系人电话 */
-    contactPhone?: string
+    contactPhone: string | null
     /** 联系人邮箱 */
-    contactEmail?: string
+    contactEmail: string | null
     /** 联系人地址 */
-    contactAddress?: string
+    contactAddress: string | null
     /** 是否启用 */
-    isEnabled?: boolean
+    isEnabled: boolean
     /** 备注 */
-    remark?: string
+    remark: string | null
 }
 
 export type UpdateMerchantVersionRequest = {

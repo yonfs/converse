@@ -24,6 +24,8 @@ export type MerchantDTO = {
     createdAt: number
     // 更新时间
     updatedAt: number | null
+    // 管理员账号
+    adminAccount: string
 }
 
 // 简单商户出参

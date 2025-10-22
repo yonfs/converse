@@ -25,3 +25,11 @@ export type MerchantDTO = {
     // 更新时间
     updatedAt: number | null
 }
+
+// 简单商户出参
+export class SimpleMerchantDTO {
+    // id
+    id: string
+    // 名称
+    name: string
+}

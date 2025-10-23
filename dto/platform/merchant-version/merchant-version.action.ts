@@ -8,8 +8,8 @@ export type CreateMerchantVersionRequest = {
     permissions: string[]
     /** 是否默认 */
     isDefault: boolean
-    /** 备注 */
-    remark: string | null
+    /** 描述 */
+    description: string | null
 }
 
 export type QueryMerchantVersionRequest = OnlyKeywordRequest & PageRequest
@@ -27,6 +27,6 @@ export type UpdateMerchantVersionRequest = {
     permissions: string[]
     /** 是否默认 */
     isDefault: boolean
-    /** 备注 */
-    remark: string | null
+    /** 描述 */
+    description: string | null
 }

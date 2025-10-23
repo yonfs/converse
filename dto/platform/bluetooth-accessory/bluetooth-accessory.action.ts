@@ -6,8 +6,10 @@ export type QueryBluetoothAccessoryRequest = OnlyKeywordRequest & PageRequest & 
 export type BatchCreateBluetoothAccessoryRequest = {
     // 型号
     modelId: string
-    // 内容(车架号)
-    content: string
+    // 商户
+    merchantId: string | null
+    // 备注
+    remark: string | null
 }
 
 export type QueryBluetoothAccessoryResponse = {
@@ -36,7 +38,7 @@ export type UploadBluetoothAccessoryRequest = {
 // 批量录入车辆数据错误时的响应数据类型
 export type UploadBluetoothAccessoryErrorResponse = {
     // 错误类型 参数错误 数据错误
-    errorType: 'parmeter' | 'data'
+    errorType: 'parameter' | 'data'
     // 错误的列名称
     errorColumn: string
     // 错误的提示信息需要进行翻译的值

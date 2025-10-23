@@ -49,8 +49,6 @@ export type UpdateMerchantRequest = {
     isEnabled: boolean
     /** 描述 */
     description: string | null
-    /** 商户版本id */
-    merchantVersionId: string
 }
 
 export type UpdateMerchantVersionRequest = {

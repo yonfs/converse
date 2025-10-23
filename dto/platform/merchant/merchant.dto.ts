@@ -18,20 +18,12 @@ export type MerchantDTO = {
     contactEmail: string | null
     // 联系人地址
     contactAddress: string | null
-    // 备注
-    remark: string | null
+    // 描述
+    description: string | null
     // 创建时间
     createdAt: number
     // 更新时间
     updatedAt: number | null
-    // 管理员账号
-    adminAccount: string
-}
-
-// 简单商户出参
-export class SimpleMerchantDTO {
-    // id
-    id: string
-    // 名称
-    name: string
+    // 账号
+    account: string
 }

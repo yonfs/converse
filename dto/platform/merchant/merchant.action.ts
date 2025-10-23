@@ -12,14 +12,18 @@ export type CreateMerchantRequest = {
     contactPhone: string | null
     /** 联系人邮箱 */
     contactEmail: string | null
+    /** 联系人地址 */
+    contactAddress: string | null
     /** 商户版本id */
     merchantVersionId: string
     /** 是否启用 */
     isEnabled: boolean
-    /** 管理员账号 */
+    /** 账号 */
     account: string
-    /** 管理员密码 */
+    /** 密码 */
     password: string
+    /** 描述 */
+    description: string | null
 }
 
 export type QueryMerchantRequest = OnlyKeywordRequest & PageRequest
@@ -43,8 +47,10 @@ export type UpdateMerchantRequest = {
     contactAddress: string | null
     /** 是否启用 */
     isEnabled: boolean
-    /** 备注 */
-    remark: string | null
+    /** 描述 */
+    description: string | null
+    /** 商户版本id */
+    merchantVersionId: string
 }
 
 export type UpdateMerchantVersionRequest = {

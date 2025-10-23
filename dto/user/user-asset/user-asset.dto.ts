@@ -29,14 +29,20 @@ export type UserAssetDTO = {
     // 车架号
     vehicleIdentificationNumber: string | null
 
-    //蓝牙物理id
+    //蓝牙物理id(涂鸦设备)
     bluetoothPhysicalId: string | null
 
     //认证id
     authId: string | null
 
-    //蓝牙地址
-    bluetoothAddress: string | null
+    // 蓝牙设备编号
+    bluetoothNumber: string | null
+
+    // MAC地址
+    macAddress: string | null
+
+    // IOS UUID
+    iosUUID: string | null
 
     // 激活时间
     createdAt: number

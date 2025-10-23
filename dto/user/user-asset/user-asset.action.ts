@@ -7,19 +7,19 @@ export type CreateUserAssetRequest = {
     bluetoothPhysicalId: string
     //认证id（认证码）
     authId: string
-    //蓝牙地址（mac地址）
-    bluetoothAddress: string | null
+    //Mac地址
+    macAddress: string | null
     //图片
     image: string | null
 }
 
 // 创建用户资产蓝牙仪表
 export type BindUserAssetBluetoothAccessoryRequest = {
-    // 蓝牙物理id
-    bluetoothPhysicalId: string
-    // Android蓝牙地址
-    androidBluetoothAddress: string | null
-    // iosUUID
+    // 蓝牙设备编号
+    bluetoothNumber: string
+    // Mac地址
+    macAddress: string | null
+    // IOS UUID
     iosUUID: string | null
 }
 

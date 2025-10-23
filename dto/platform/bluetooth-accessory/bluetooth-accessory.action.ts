@@ -7,7 +7,9 @@ export type BatchCreateBluetoothAccessoryRequest = {
     // 型号
     modelId: string
     // 商户
-    merchantId: string | null
+    merchantId: string
+    // 批次号
+    batchNumber: string
     // 备注
     remark: string | null
 }

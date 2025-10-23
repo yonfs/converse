@@ -66,3 +66,11 @@ export type ResetMerchantPasswordRequest = {
     /** 新密码 */
     password: string
 }
+
+// 查询所有商户响应数据
+export type QueryAllMerchantResponse = Array<{
+    /** 商户id */
+    id: string
+    /** 商户名称 */
+    name: string
+}>

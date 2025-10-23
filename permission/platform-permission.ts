@@ -18,7 +18,7 @@ export const PlatformPermissionModule: PermissionModuleType = [
     // 历史轨迹
     {
         id: 'historyTrack',
-        items: ['historyTrack.query']
+        items: ['historyTrack.query', 'historyTrack.pageDetail']
     },
     // 骑行记录
     {

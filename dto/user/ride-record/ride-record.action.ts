@@ -1,5 +1,5 @@
-import { PageRequest } from "../../simple-request"
-import { RideRecordDTO } from "./ride-record.dto"
+import type { PageRequest } from '../../simple-request'
+import type { rideLoactionDTO, RideRecordDTO } from './ride-record.dto'
 
 // 开始骑行请求
 export type RideStartRequest = {
@@ -58,4 +58,12 @@ export type RideTrackListRequest = PageRequest & {
 export type RideTrackListResponse = {
     total: number
     list: RideRecordDTO[]
+}
+
+export type RideRecordPointResponse = {
+    rideRecord: RideRecordDTO
+
+    point: rideLoactionDTO[]
+
+    total: number
 }

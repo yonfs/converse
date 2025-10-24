@@ -22,7 +22,7 @@ export type RideRecordDTO = {
     distance: number
 }
 
-export type rideLoactionOobitDTO = {
+export type rideLoactionDTO = {
     id: string
 
     // 骑行记录id

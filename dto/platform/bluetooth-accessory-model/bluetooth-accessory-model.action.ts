@@ -22,3 +22,8 @@ export type CreateBluetoothAccessoryModelRequest = {
     //图片URL
     modelImage: string | null
 }
+
+export type QueryAllBluetoothAccessoryModelResponse = {
+    id: string
+    modelName: string
+}[]

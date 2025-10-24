@@ -6,6 +6,10 @@ export type BluetoothAccessoryDTO = {
     modelId: string
     // 蓝牙型号
     modelName: string
+    // 批次号
+    batchNumber: string | null
+    // 使用地区
+    useRegion: string | null
     // Mac地址
     macAddress: string | null
     // IOS UUID

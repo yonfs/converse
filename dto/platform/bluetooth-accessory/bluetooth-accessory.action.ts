@@ -7,11 +7,11 @@ export type BatchCreateBluetoothAccessoryRequest = {
     // 型号
     modelId: string
     // 商户
-    merchantId: string
+    merchantId: string | null
     // 批次号
     batchNumber: string
-    // 备注
-    remark: string | null
+    // 使用地区
+    useRegion: string | null
 }
 
 export type QueryBluetoothAccessoryResponse = {
@@ -41,9 +41,7 @@ export type UploadBluetoothAccessoryRequest = {
 export type UploadBluetoothAccessoryErrorResponse = {
     // 错误类型 参数错误 数据错误
     errorType: 'parameter' | 'data'
-    // 错误的列名称
-    errorColumn: string
-    // 错误的提示信息需要进行翻译的值
+    // 错误的提示信息
     errorMessage: string
     // 错误的数据
     errorData: string

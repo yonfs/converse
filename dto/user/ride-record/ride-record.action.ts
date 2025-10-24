@@ -1,6 +1,7 @@
 // 开始骑行请求
 export type RideStartRequest = {
     assetId: string
+    zone: string
 }
 
 // 开始骑行响应

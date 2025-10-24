@@ -37,8 +37,8 @@ export type UploadBluetoothAccessoryRequest = {
     remark: string | null
 }
 
-// 批量录入车辆数据错误时的响应数据类型
-export type UploadBluetoothAccessoryErrorResponse = {
+// 批量录入车辆数据的响应数据类型
+export type BatchCreateBluetoothAccessoryResponse = Array<{
     // 错误类型 参数错误 数据错误
     errorType: 'parameter' | 'data'
     // 错误的提示信息
@@ -47,4 +47,4 @@ export type UploadBluetoothAccessoryErrorResponse = {
     errorData: string
     // 错误的数据行号
     errorRow: number
-}
+}>

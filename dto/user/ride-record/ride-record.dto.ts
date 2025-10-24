@@ -23,32 +23,9 @@ export type RideRecordDTO = {
 }
 
 export type rideLoactionDTO = {
-    id: string
-
-    // 骑行记录id
-    rideRecordId: string
-
     // 经度
     longitude: number
 
     // 纬度
     latitude: number
-
-    // 记录时间点
-    time: number
-
-    // 方向
-    direction: number
-
-    //速度
-    speed: number
-
-    // 精度
-    accuracy: number
-
-    // 类型
-    type: string
-
-    // 创建时间
-    createdAt: number
 }

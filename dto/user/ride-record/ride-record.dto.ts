@@ -15,6 +15,12 @@ export type RideRecordDTO = {
     // 骑行结束时间
     endTime: number | null
 
+    // 最高速度
+    maxSpeed: number
+
+    // 最低速度
+    minSpeed: number
+
     // 平均速度
     averageSpeed: number
 

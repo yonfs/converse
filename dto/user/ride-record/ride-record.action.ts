@@ -9,14 +9,22 @@ export type RideStartResponse = {
 }
 
 type RidePoint = {
+    // 经度
     latitude: number
+    // 纬度
     longitude: number
+    // 时间戳
     timestamp: number
+    // 精度
     accuracy: number
+    // 海拔
     altitude: number
+    // 速度
     speed: number
+    // 方向
     bearing: number
-    type: string // LocationDataSourceType类型
+    // LocationDataSourceType类型
+    type: string 
 }
 
 // 上传骑行数据请求

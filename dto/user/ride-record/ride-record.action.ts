@@ -1,6 +1,7 @@
 // 开始骑行请求
 export type RideStartRequest = {
     assetId: string
+    // 区域
     zone: string
 }
 
@@ -46,11 +47,17 @@ export type RideTrackDetailRequest = {
 
 // 骑行轨迹详情响应
 export type RideTrackDetailResponse = {
+    // 时长
     duration: number
+    // 距离
     distance: number
+    // 平均速度
     averageSpeed: number
+    // 最大速度
     maxSpeed: number
+    // 最小速度
     minSpeed: number
+    // 轨迹点
     points: RidePoint[]
 }
 
@@ -64,9 +71,13 @@ export type RideTrackListRequest = {
 // 骑行轨迹（列表项）
 export type RideTrack = {
     id: string
+    // 平均速度
     averageSpeed: number
+    // 距离
     distance: number
+    // 时长
     startTimestamp: number
+    // 结束时间
     endTimestamp: number | null
 }
 

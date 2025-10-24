@@ -64,6 +64,4 @@ export type RideRecordPointResponse = {
     rideRecord: RideRecordDTO
 
     point: rideLoactionDTO[]
-
-    total: number
 }

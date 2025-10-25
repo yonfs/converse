@@ -7,8 +7,8 @@ export const PlatformPermissionModule: PermissionModuleType = [
     },
     // 资产管理
     {
-        id: 'assetManagement',
-        items: ['assetManagement.query']
+        id: 'asset',
+        items: ['asset.query']
     },
     // 定位监控
     {

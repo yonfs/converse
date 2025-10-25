@@ -1,5 +1,5 @@
 import type { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../simple-request'
-import type { UserAssetBasicInfoDTO, UserAssetItemDTO } from './user-asset.dto'
+import type { UserAssetItemDTO } from './user-asset.dto'
 
 // 查询用户资产请求（平台端）
 export type QueryUserAssetRequest = OnlyKeywordRequest &
@@ -21,9 +21,4 @@ export type QueryUserAssetResponse = {
 export type QueryAllUserAssetRequest = OnlyKeywordRequest & {
     // 用户ID（精确匹配）
     userId: string | null
-}
-
-// 查询所有用户资产响应
-export type QueryAllUserAssetResponse = {
-    list: UserAssetBasicInfoDTO[]
 }

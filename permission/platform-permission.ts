@@ -23,7 +23,7 @@ export const PlatformPermissionModule: PermissionModuleType = [
     // 骑行记录
     {
         id: 'rideRecord',
-        items: ['rideRecord.query']
+        items: ['rideRecord.query', 'rideRecord.pageDetail']
     },
     // 智能服务订单
     {

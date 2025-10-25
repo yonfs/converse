@@ -53,6 +53,7 @@ export type BluetoothAccessoryDeviceDTO = {
 export type UserAssetItemDTO = {
     // 资产基本信息
     id: string
+    userAssetNumber: string
     createdAt: number
 
     // 所属用户信息（辅助信息）

@@ -2,6 +2,9 @@ export type UserAssetDTO = {
     //资产id
     id: string
 
+    // 用户资产编号
+    userAssetNumber: string
+
     // 轻电车Id
     lightElectricVehicleId: string | null
 

@@ -31,6 +31,8 @@ export type RideLocationDTO = {
     latitude: number
     // 速度
     speed: number | null
+    // 时间戳
+    createdAt: number
 }
 
 // 用户基本信息DTO

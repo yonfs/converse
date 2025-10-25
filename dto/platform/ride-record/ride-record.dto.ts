@@ -19,6 +19,8 @@ export type RideRecordDTO = {
     averageSpeed: number
     // 骑行距离
     distance: number
+    // 正在骑行中
+    isRiding: boolean
 }
 
 // 骑行位置点DTO

@@ -1,5 +1,6 @@
 // 发送手机验证码
 export type SendPhoneVerificationCodeRequest = {
+    countryCode: string
     phone: string
 }
 
@@ -10,6 +11,7 @@ export type SendEmailVerificationCodeRequest = {
 
 // 手机注册
 export type PhoneRegisterRequest = {
+    countryCode: string
     phone: string
     password: string
     verificationCode: string
@@ -28,6 +30,7 @@ export type EmailRegisterRequest = {
 
 // 手机号登录
 export type PhoneLoginRequest = {
+    countryCode: string
     phone: string
     password: string
 }

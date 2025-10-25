@@ -7,6 +7,8 @@ export type LightElectricVehicleModelDTO = {
     brandId: string
     /// 品牌名称
     brandName: string
+    /// 图片
+    image: string | null
     /// 创建时间
     createdAt: number
     /// 创建人

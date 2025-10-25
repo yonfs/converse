@@ -7,6 +7,8 @@ export type CreateLightElectricVehicleModelRequest = {
     name: string
     /// 品牌ID
     brandId: string
+    /// 图片
+    image: string | null
 }
 
 // 查询型号入参
@@ -37,4 +39,6 @@ export type UpdateLightElectricVehicleModelRequest = {
     name: string
     /// 品牌ID
     brandId: string
+    /// 图片
+    image: string | null
 }

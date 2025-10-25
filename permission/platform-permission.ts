@@ -5,6 +5,11 @@ export const PlatformPermissionModule: PermissionModuleType = [
         id: 'dataScreen',
         items: []
     },
+    // 资产管理
+    {
+        id: 'assetManagement',
+        items: ['assetManagement.query']
+    },
     // 定位监控
     {
         id: 'location',

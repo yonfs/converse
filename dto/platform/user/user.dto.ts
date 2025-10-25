@@ -27,3 +27,15 @@ export type UserDTO = {
     // 更新人
     updatedBy: string | null
 }
+
+// 用户基本信息（用于下拉选择）
+export type UserBasicInfoDTO = {
+    // 用户id
+    id: string
+    // 手机号
+    phone: string | null
+    // 邮箱
+    email: string | null
+    // 昵称
+    nickname: string | null
+}

@@ -85,3 +85,11 @@ export type UserAssetItemDTO = {
     // 蓝牙配件设备
     bluetoothAccessory: BluetoothAccessoryDeviceDTO | null
 }
+
+// 用户资产基本信息（用于下拉选择）
+export type UserAssetBasicInfoDTO = {
+    // 用户资产ID
+    id: string
+    // 用户资产编号
+    userAssetNumber: string
+}

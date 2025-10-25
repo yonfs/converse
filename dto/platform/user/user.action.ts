@@ -1,5 +1,5 @@
 import type { OnlyKeywordRequest, PageRequest, QueryTimeRequest } from '../../../dto/simple-request'
-import type { UserDTO } from './user.dto'
+import type { UserBasicInfoDTO, UserDTO } from './user.dto'
 
 // 查询用户入参（）
 export type QueryUserRequest = OnlyKeywordRequest &
@@ -12,4 +12,9 @@ export type QueryUserRequest = OnlyKeywordRequest &
 export type QueryUserResponse = {
     list: UserDTO[]
     total: number
+}
+
+// 查询所有用户基本信息响应
+export type QueryAllUserResponse = {
+    list: UserBasicInfoDTO[]
 }

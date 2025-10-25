@@ -49,31 +49,31 @@ export type BluetoothAccessoryDeviceDTO = {
     }
 }
 
-// 用户资产明细（平台端）
+// 用户资产列表项（平台端 - 以资产为单位展示）
 export type UserAssetItemDTO = {
-    // 资产id
+    // 资产基本信息
     id: string
-    // 用户id
-    userId: string
-    // 用户手机号
-    userPhone: string | null
-    // 用户邮箱
-    userEmail: string | null
-    // 用户昵称
-    userNickname: string | null
+    createdAt: number
 
-    // 资产自定义信息
-    // 轻电车名称（用户自定义）
+    // 所属用户信息（辅助信息）
+    user: {
+        id: string
+        phone: string | null
+        email: string | null
+        nickname: string | null
+        avatar: string | null
+        gender: string | null
+        isAllowLogin: boolean
+        createdAt: number
+        lastLoginTime: number | null
+    }
+
+    // 资产自定义信息（用户可自定义的字段）
     lightElectricVehicleName: string | null
-    // 轻电车图片（用户自定义）
     lightElectricVehicleImage: string | null
-    // 轻电车品牌Id（冗余字段）
     lightElectricVehicleBrandId: string | null
-    // 轻电车品牌名称（冗余字段）
     lightElectricVehicleBrandName: string | null
-    // 轻电车型号Id（冗余字段）
     lightElectricVehicleModelId: string | null
-    // 轻电车型号名称（冗余字段）
     lightElectricVehicleModelName: string | null
 
     // 设备绑定信息（可选，根据是否存在判断绑定状态）
@@ -83,33 +83,4 @@ export type UserAssetItemDTO = {
     tuyaBicycle: TuyaBicycleDeviceDTO | null
     // 蓝牙配件设备
     bluetoothAccessory: BluetoothAccessoryDeviceDTO | null
-
-    // 创建时间
-    createdAt: number
-}
-
-// 用户资产列表项（以用户为单位展示）
-export type UserAssetListItemDTO = {
-    // 用户id
-    userId: string
-    // 用户手机号
-    userPhone: string | null
-    // 用户邮箱
-    userEmail: string | null
-    // 用户昵称
-    userNickname: string | null
-    // 用户头像
-    userAvatar: string | null
-    // 用户性别
-    userGender: string | null
-    // 是否允许登录
-    isAllowLogin: boolean
-    // 注册时间
-    userCreatedAt: number
-    // 最后登录时间
-    lastLoginTime: number | null
-    // 资产数量
-    assetCount: number
-    // 资产列表
-    assets: UserAssetItemDTO[]
 }

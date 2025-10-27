@@ -6,6 +6,16 @@ export const MerchantPermissionModule: PermissionModuleType = [
         id: 'lightEV',
         items: ['lightEV.query']
     },
+    // 车辆品牌管理
+    {
+        id: 'lightEVBrand',
+        items: ['lightEVBrand.query']
+    },
+    // 车辆型号管理
+    {
+        id: 'lightEVModel',
+        items: ['lightEVModel.query']
+    },
     // 蓝牙仪表管理
     {
         id: 'bluetoothAccessory',

@@ -118,7 +118,7 @@ export const PlatformPermissionModule: PermissionModuleType = [
     // 商户管理
     {
         id: 'merchant',
-        items: ['merchant.query', 'merchant.add', 'merchant.edit', 'merchant.delete']
+        items: ['merchant.query', 'merchant.add', 'merchant.edit', 'merchant.delete', 'merchant.resetPassword']
     },
     // 商户版本管理
     {

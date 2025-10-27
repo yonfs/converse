@@ -8,7 +8,7 @@ export const PlatformPermissionModule: PermissionModuleType = [
     // 资产管理
     {
         id: 'asset',
-        items: ['asset.query']
+        items: ['asset.query', 'asset.detail']
     },
     // 定位监控
     {
@@ -53,12 +53,12 @@ export const PlatformPermissionModule: PermissionModuleType = [
     // 问题反馈
     {
         id: 'feedback',
-        items: ['feedback.query']
+        items: ['feedback.query', 'feedback.handle']
     },
     // 系统消息
     {
         id: 'systemMessage',
-        items: ['systemMessage.query']
+        items: ['systemMessage.query', 'systemMessage.add', 'systemMessage.delete']
     },
     // 硬件升级
     {
@@ -73,12 +73,12 @@ export const PlatformPermissionModule: PermissionModuleType = [
     // 车辆品牌
     {
         id: 'lightEVBrand',
-        items: ['lightEVBrand.query']
+        items: ['lightEVBrand.query', 'lightEVBrand.add', 'lightEVBrand.edit', 'lightEVBrand.delete']
     },
     // 车辆型号
     {
         id: 'lightEVModel',
-        items: ['lightEVModel.query']
+        items: ['lightEVModel.query', 'lightEVModel.add', 'lightEVModel.edit', 'lightEVModel.delete']
     },
     // 涂鸦设备
     {
@@ -88,12 +88,12 @@ export const PlatformPermissionModule: PermissionModuleType = [
     // 蓝牙仪表
     {
         id: 'bluetoothAccessory',
-        items: ['bluetoothAccessory.query']
+        items: ['bluetoothAccessory.query', 'bluetoothAccessory.add', 'bluetoothAccessory.edit', 'bluetoothAccessory.delete']
     },
     // 蓝牙仪表型号
     {
         id: 'bluetoothAccessoryModel',
-        items: ['bluetoothAccessoryModel.query']
+        items: ['bluetoothAccessoryModel.query', 'bluetoothAccessoryModel.add', 'bluetoothAccessoryModel.edit', 'bluetoothAccessoryModel.delete']
     },
     // 云盒
     {
@@ -103,26 +103,26 @@ export const PlatformPermissionModule: PermissionModuleType = [
     // 用户
     {
         id: 'user',
-        items: ['user.query']
+        items: ['user.query', 'user.handle']
     },
     // 账号管理
     {
         id: 'account',
-        items: ['account.query']
+        items: ['account.query', 'account.add', 'account.edit', 'account.delete', 'account.resetPassword']
     },
     // 角色管理
     {
         id: 'role',
-        items: ['role.query']
+        items: ['role.query', 'role.add', 'role.edit', 'role.delete']
     },
     // 商户管理
     {
         id: 'merchant',
-        items: ['merchant.query']
+        items: ['merchant.query', 'merchant.add', 'merchant.edit', 'merchant.delete']
     },
     // 商户版本管理
     {
         id: 'merchantVersion',
-        items: ['merchantVersion.query']
+        items: ['merchantVersion.query', 'merchantVersion.add', 'merchantVersion.edit', 'merchantVersion.delete']
     }
 ]

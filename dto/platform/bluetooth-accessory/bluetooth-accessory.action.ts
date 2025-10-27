@@ -23,8 +23,10 @@ export type UpdateBluetoothAccessoryRequest = {
     id: string
     // 型号ID
     modelId: string | null
-    // 资产id
-    assetId: string | null
+    // 商户ID
+    merchantId: string | null
+    // 使用地区
+    useRegion: string | null
 }
 
 // 查询模板文件地址响应

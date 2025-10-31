@@ -93,7 +93,12 @@ export const PlatformPermissionModule: PermissionModuleType = [
     // 蓝牙仪表型号
     {
         id: 'bluetoothAccessoryModel',
-        items: ['bluetoothAccessoryModel.query', 'bluetoothAccessoryModel.add', 'bluetoothAccessoryModel.edit', 'bluetoothAccessoryModel.delete']
+        items: [
+            'bluetoothAccessoryModel.query',
+            'bluetoothAccessoryModel.add',
+            'bluetoothAccessoryModel.edit',
+            'bluetoothAccessoryModel.delete'
+        ]
     },
     // 云盒
     {

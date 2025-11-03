@@ -2,6 +2,8 @@ export type MerchantAccountRoleDTO = {
     id: string
     /// 商户id
     merchantId: string
+    /// 是否默认角色
+    isDefault: boolean
     /// 名称
     name: string
     /// 描述

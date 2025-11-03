@@ -3,8 +3,6 @@ import type { MerchantAccountDTO } from './account.dto'
 
 /// 创建商户账号请求
 export type CreateMerchantAccountRequest = {
-    /// 商户id
-    merchantId: string
     /// 账号
     account: string
     /// 密码
@@ -18,10 +16,7 @@ export type CreateMerchantAccountRequest = {
 }
 
 /// 查询商户账号请求
-export type QueryMerchantAccountRequest = PageRequest & QueryTimeRequest & OnlyKeywordRequest & {
-    /// 商户id
-    merchantId?: string
-}
+export type QueryMerchantAccountRequest = PageRequest & QueryTimeRequest & OnlyKeywordRequest
 
 /// 查询商户账号响应
 export type QueryMerchantAccountResponse = {

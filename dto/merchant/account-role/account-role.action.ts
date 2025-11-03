@@ -5,6 +5,8 @@ import type { MerchantAccountRoleDTO } from './account-role.dto'
 export type CreateMerchantAccountRoleRequest = {
     /// 商户id
     merchantId: string
+    /// 是否默认角色
+    isDefault: boolean
     /// 名称
     name: string
     /// 描述
@@ -14,10 +16,7 @@ export type CreateMerchantAccountRoleRequest = {
 }
 
 /// 查询商户账号角色请求
-export type QueryMerchantAccountRoleRequest = PageRequest & QueryTimeRequest & OnlyKeywordRequest & {
-    /// 商户id
-    merchantId?: string
-}
+export type QueryMerchantAccountRoleRequest = PageRequest & QueryTimeRequest & OnlyKeywordRequest 
 
 /// 查询商户账号角色响应
 export type QueryMerchantAccountRoleResponse = {
@@ -29,6 +28,8 @@ export type QueryMerchantAccountRoleResponse = {
 export type UpdateMerchantAccountRoleRequest = {
     /// id
     id: string
+    /// 是否默认角色
+    isDefault: boolean
     /// 名称
     name: string
     /// 描述

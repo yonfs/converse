@@ -3,8 +3,6 @@ import type { MerchantAccountRoleDTO } from './account-role.dto'
 
 /// 创建商户账号角色请求
 export type CreateMerchantAccountRoleRequest = {
-    /// 商户id
-    merchantId: string
     /// 是否默认角色
     isDefault: boolean
     /// 名称

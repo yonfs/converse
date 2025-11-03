@@ -43,3 +43,11 @@ export type ResetMerchantAccountPasswordRequest = {
     /// 新密码
     password: string
 }
+
+//更新密码
+export type UpdatePasswordRequest = {
+    /** 原密码 */
+    oldPassword: string
+    /** 新密码 */
+    password: string
+}

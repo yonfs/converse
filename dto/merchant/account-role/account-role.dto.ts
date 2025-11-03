@@ -15,3 +15,9 @@ export type MerchantAccountRoleDTO = {
     /// 更新时间
     updatedAt: number | null
 }
+
+export type SimpleMerchantAccountRoleDTO = {
+    id: string
+    /// 名称
+    name: string
+}

@@ -7,8 +7,6 @@ export type CreateMerchantAccountRequest = {
     account: string
     /// 密码
     password: string
-    /// 姓名
-    name: string | null
     /// 是否允许登录
     allowLogin: boolean
     /// 角色id列表

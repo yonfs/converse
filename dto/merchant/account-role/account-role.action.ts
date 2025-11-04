@@ -14,7 +14,7 @@ export type CreateMerchantAccountRoleRequest = {
 }
 
 /// 查询商户账号角色请求
-export type QueryMerchantAccountRoleRequest = PageRequest & QueryTimeRequest & OnlyKeywordRequest 
+export type QueryMerchantAccountRoleRequest = PageRequest & QueryTimeRequest & OnlyKeywordRequest
 
 /// 查询商户账号角色响应
 export type QueryMerchantAccountRoleResponse = {

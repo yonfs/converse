@@ -1,6 +1,10 @@
 export type LightElectricVehicleBrandDTO = {
     // 品牌ID
     id: string
+    //商户id
+    merchantId: string | null
+    //商户名称
+    merchantName: string | null
     // 名称
     name: string
     // 图片

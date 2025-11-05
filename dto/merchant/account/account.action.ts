@@ -32,14 +32,6 @@ export type UpdateMerchantAccountRequest = {
     roleIds: string[]
 }
 
-/// 重置商户账号密码请求
-export type ResetMerchantAccountPasswordRequest = {
-    /// 商户账号id
-    merchantAccountId: string
-    /// 新密码
-    password: string
-}
-
 //更新密码
 export type UpdatePasswordRequest = {
     /** 原密码 */

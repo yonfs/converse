@@ -4,8 +4,6 @@ export type MerchantAccountDTO = {
     merchantId: string
     /// 账号
     account: string
-    /// 姓名
-    name: string | null
     /// 是否允许登录
     allowLogin: boolean
     /// 角色id列表

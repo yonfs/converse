@@ -26,8 +26,6 @@ export type QueryMerchantAccountResponse = {
 export type UpdateMerchantAccountRequest = {
     /// id
     id: string
-    /// 姓名
-    name: string | null
     /// 是否允许登录
     allowLogin: boolean
     /// 角色id列表
